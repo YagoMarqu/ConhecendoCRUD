@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Atualizar</h1>
+    <hr>
+    <br>
+
+    <a href="index.html"><button type="button">Voltar</button></a>
+    <br><br>
+    <hr>
+    <form>
+        <br>    
+        <h3>Para atualizar algum dado basta preecher o campo "CPF" depois clicar em buscar,</h3>
+        <h3>apos isso modifique o campo que deseja atualizar e clique em atualizar.</h3>
+        <br>
+        <label>ID:</label>
+        <input type="text" id="id" readonly>
+        <br><br>
+        <label>Nome:</label>
+        <input type="text" id="nomeAtualizar">
+        <br><br>
+        <label>Idade:</label>
+        <input type="text" id="idadeAtualizar">
+        <br><br>
+        <label>CPF:</label>
+        <input type="text" id="cpfAtualizar" placeholder="Digite o CPF para busca">
+        <br><br>
+        <input type="button" onclick="buscarDados()" value="Buscar">
+        <input type="button" onclick="atualizarDados()" value="Atualizar">
+        <br>
+    </form>
+
+    <script src="funcao.js"></script>
+</body>
+</html>

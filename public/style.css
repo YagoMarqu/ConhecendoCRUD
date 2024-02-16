@@ -1,0 +1,37 @@
+*{
+    margin: 0 auto;
+    text-align: center;
+    color: #93bd9a;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    margin-left: 500px;
+    margin-right: 500px;
+    background: rgb(33,5,24);
+    background: linear-gradient(180deg, rgba(33,5,24,1) 0%, rgba(94,75,85,1) 41%, rgba(147,189,154,1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 980px;
+    
+   
+}
+button{
+    border-radius: 4px;
+    border-color: #7c917f;
+    background-color: #5e4b55;
+    width: 100px;
+    
+}
+hr{
+    color: #d4ddb1;
+}
+
+tr, th, td{
+    border: 1px solid #7c917f;
+}
+
+input{
+    border-color: #7c917f;
+    background-color: #5e4b55;
+    border-radius: 4px;
+}
