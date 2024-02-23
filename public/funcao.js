@@ -85,6 +85,7 @@ function deletarDados() {
             fetch(`pessoas/${obj.id}`, {
               method: 'DELETE'
             });
+            location.reload()
           }
         });
       });
@@ -107,4 +108,10 @@ function deletarDados() {
         tabela.innerHTML += linha;
     })
 })
+
+
+
+
+  
+
   
